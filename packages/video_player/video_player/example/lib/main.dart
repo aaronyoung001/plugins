@@ -218,7 +218,7 @@ class _BumbleBeeRemoteVideoState extends State<_BumbleBeeRemoteVideo> {
   void initState() {
     super.initState();
     _controller = VideoPlayerController.network(
-      'http://180.97.207.131:8086/live/12911/hls.m3u8',
+      'https://sod.bunediy.com/20211112/L57EDNF2/index.m3u8',
       closedCaptionFile: _loadCaptions(),
       videoPlayerOptions: VideoPlayerOptions(mixWithOthers: true),
     );
